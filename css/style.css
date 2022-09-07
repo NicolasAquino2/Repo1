@@ -85,9 +85,10 @@ nav ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     justify-content: center;
     align-items: center;
+    
 
 
 }
@@ -309,8 +310,17 @@ nav ul li a{
 
 }
 
+.gradient{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.4654236694677871) 0%, rgba(217,8,209,0.7455357142857143) 55%);
+}
 
+.transform:hover{
+    transform: translateX(10px);
+    transition: transform 1s;
+}
 
-    
+nav.ul.li.a:hover{
+    background-color: dimgray;
+}
 
- 
